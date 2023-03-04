@@ -1,0 +1,451 @@
+/* DIV VIEWER*/
+/* div { outline: 1px solid red !important; }*/
+/* DIV VIEWER*/
+
+
+div {
+    overflow  : hidden;
+    margin-top: 10%;
+}
+
+
+#table-top {
+    border-spacing: 0.5em;
+    padding-left: 10em;
+    
+        overflow-x: auto;
+        
+}
+
+
+h1, h2 {
+    font-family   : 'Dosis';
+    font-style    : normal;
+    font-weight   : 700;
+  
+    letter-spacing: -0.015em;
+    color         : #000000;
+    font-size     : 1em;
+    text-align: center;
+
+}
+
+.color-black {
+    color         : #000000;
+
+}
+
+
+
+a{
+    color: #0F68B9;
+}
+
+
+ul {
+    list-style-type:none;
+    text-align: left;
+}
+p, li, td {
+    font-family: 'Source Sans Pro', sans-serif;
+    color      : #494949;
+    font-size  : 0.8em;
+}
+
+button {
+
+    margin-top: 5%;
+    background-color: #F77B2F;
+    color           : #FFFFFF;
+    border-style    : none;
+    padding         : 5%;
+    width           : 90%;
+    height          : 10%;
+    border-radius: 30px
+}
+
+
+.font-dosis {
+    font-family   : 'Dosis';
+}
+
+.font-source {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+}
+
+.font-700 {
+    font-weight: 700;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+
+
+
+.grey {
+    background-color: #FAFAFA;
+}
+
+.grey-other {
+background-color: #CCCCCC;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+.bottom-border {
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.top-border {
+    border-top: 1px solid #DCDCDC;
+
+}
+
+
+.uppercase {
+    text-transform: uppercase;
+
+}
+
+
+    
+
+.margin-top10 {
+    margin-top: 10%;;
+}
+
+.hr-price-black {
+    border: 1px solid #000000;
+    
+}
+
+.hr-price-divider {
+    border: 1px solid #DCDCDC;
+  
+}
+
+
+
+.number-text {
+ color    : #F77B2F;
+ font-size: 2.5em;
+ text-align: center;
+ 
+}
+
+
+.div-number{
+   
+    border       : 1px solid #F2F2F2;
+    border-radius: 10px;
+    margin-top   : 3%;
+
+   }
+
+.centralized-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+ 
+    }
+
+.sub-div {
+       
+        align-items    : center;
+        justify-content: center;
+        text-align     : center;
+        margin-bottom  : 5%;   
+     }
+
+.inline-div {
+    padding-top: 5%;
+        margin-left: 5%;
+        margin-top: -5%;
+        margin-bottom: -5%;
+        align-items: center;
+        vertical-align: middle
+    }
+
+.inline-div p {
+        display       : inline-block;
+        vertical-align: middle;
+        
+    }
+
+
+
+    .image-container {
+        position: relative;
+        width: 100%;
+        padding-bottom: 63.75%; 
+        background-image: url("images/image 4.png");
+        background-size: cover;
+   
+    }
+
+    #div-image-bottom {
+position: absolute;
+top     : 34.3%;
+right   : 0;
+width   : 14%;
+height  : 55%;
+
+
+    }
+
+    #div-image-top {
+
+        position: absolute;
+        top: -16%;
+        right: 0;
+        width: 11%;
+        height: 17%;
+        
+       
+    }
+#img-6 {
+    position: absolute;
+    top: 0;
+    right: 0%;
+    width: 24%;
+    height: 24.9%;
+ 
+    
+    mix-blend-mode: darken;
+
+}
+
+
+
+
+   
+    #img-other {
+        position: absolute;
+        width: 30.5%;
+
+
+        top: 25%;
+        left: 8%;
+
+        mix-blend-mode: darken;
+
+
+    }
+
+
+    #img-7 {
+        position: absolute;
+        width: 24%;
+        top: 50%;
+        left: 76.3%;
+        mix-blend-mode: darken;
+
+
+    }
+
+    @media screen and (min-width: 1024px){
+
+
+    h1{
+        font-size: 2em;
+    }
+
+    #top-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 33.4vw;
+        margin-top: 5%;
+        justify-content: center;
+      }
+      
+      .sub-div {
+        width: 45%;
+        height: 100%;
+        align-items: center;
+        text-align: left;
+margin: auto;
+      }
+      
+      .image-container {
+        width: 55%;
+        padding-bottom: 10%; 
+        padding-top: 14%;
+        height: 10vw;
+        margin: auto;
+        
+      }
+   
+      .sub-div h1, p, button {
+        margin-left: 15% ;
+        margin-right: 20%;
+      }
+
+      .sub-div h1 {
+        margin-top: 10%;
+      }
+
+      .sub-div button {
+        width           : 60%;
+        margin-bottom: -5% ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+      }
+
+      .inline-div {
+  
+        display: flex;
+        align-items: center;
+        margin-left: 4%;
+        margin-top: -3.5%;
+        margin-bottom: -9%;
+
+         
+       }
+      
+      
+      
+        .margin-inline-p {
+          margin: 1px
+        }
+
+       #compress-div {
+
+        margin-top: auto;
+        width: 50%;
+       }
+ 
+   
+     #duple-div-father {
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+
+     }
+
+     .duple-div-son {
+        width: 45%;
+        margin: 0 2%;
+        text-align: left;
+        margin: 5%;
+     }
+
+  
+     .text-align-left {
+        text-align: left;
+        width: 100%;
+        margin: 0;
+    }
+  ul{
+    margin-left: -8%;
+    margin-top: -3%;
+  }
+    .div-number-margin-top{
+        margin-top: -50%;
+        margin: 0;
+       
+        
+    }
+
+    .div-number-margin-bottom {
+        margin-bottom: -5%;
+
+    }
+
+    #text-number-div {
+        align-items: center;
+        display: flex;
+        text-align: center;
+    }
+
+    #div-number-top
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+
+    #div-number-bottom {
+        display: flex;
+        justify-content: center;
+    }
+
+    .div-number {
+        margin-left: 5%;
+        margin-right: 5% ;
+        border: 1px solid #F2F2F2;
+        width: 20%;
+        margin-bottom: 3%;
+        
+    }
+
+    #duple-div-father-bottom {
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+
+    }
+
+    .duple-div-father-son{
+        width: 45%;
+        margin: 0 2%;
+        text-align: left;
+        margin: 5%;
+     
+    }
+
+    #div-number-footer {
+        
+  width: 70%;
+    }
+
+
+#table-top {
+    padding-left: 0em;
+}
+
+
+    table {
+        
+    width: 80%;
+    }
+    td, th {
+        max-width: 20%;
+      }
+
+
+      #div-last {
+        margin-bottom: 5%;
+      
+      }
+
+      #div-last button {
+        width: 20%;
+  height: 5vw;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  margin-right: 15%;
+  margin-bottom: 1%;
+      }
+
+
+}
