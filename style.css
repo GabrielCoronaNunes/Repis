@@ -220,7 +220,6 @@ por isso as classes*/
 
 /* primeira div*/
 
-
 /* div menor entre a primeira e a segunda div grandes*/
 
 .inline-div {
@@ -240,7 +239,7 @@ por isso as classes*/
 
 /* div menor entre a primeira e a segunda div grandes*/
 
-/* div números*/
+/* div dos números*/
 .number-text {
     color: #F77B2F;
     font-size: 2.5em;
@@ -254,7 +253,7 @@ por isso as classes*/
     margin-top: 3%;
 }
 
-/* div números*/
+/* div dos números*/
 
 /* hr tabela*/
 
@@ -268,6 +267,14 @@ por isso as classes*/
 
 /* hr tabela*/
 
+/*oitava div*/
+#div-last {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*oitava div*/
 
 /* MEDIA QUERIE*/
 
@@ -510,7 +517,8 @@ button {
 /*oitava div*/
 #div-last {
     margin-bottom: 5%;
-
+    justify-content: center;
+    align-items: center;
 }
 
 #div-last button {
